@@ -1,0 +1,932 @@
+0000.045 (0) Opened log file at time: Fri, 03 Jul 2020 14:06:56 +0000 on http://localhost/wordpress
+0000.100 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 66.3M | 18M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.165 (0) Free space on disk containing Updraft's temporary directory: 1866337.8 MB
+0000.583 (0) Deleting old log file: log.e1ea954cdae3.txt
+0000.666 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB:  (schedule: fortnightly)
+0000.764 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0001.144 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1590679174, seconds_ago=3106043)
+0001.363 (0) Set semaphore last lock (fd) time to 2020-07-03 14:06:57
+0001.407 (0) Semaphore lock (fd) complete
+0001.539 (0) Backup run: resumption=0, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (2s ago), job type=backup
+0001.616 (0) Scheduling a resumption (1) after 300 seconds (1593785517) in case this run gets aborted
+0001.770 (0) Checking if we have a zip executable available
+0001.869 (0) Creation of backups of directories: beginning
+0002.012 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.560 (0) Total entities for the zip file: 1192 directories, 6915 files (0 skipped as non-modified), 106.9 MB
+0005.013 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 66 (66) files added so far); re-opening (prior size: 0 KB)
+0006.086 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 100 files added (on-disk size: 628.6 KB)
+0008.181 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 78 (144) files added so far); re-opening (prior size: 628.6 KB)
+0009.737 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 200 files added (on-disk size: 981.8 KB)
+0011.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 89 (233) files added so far); re-opening (prior size: 981.8 KB)
+0012.464 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 300 files added (on-disk size: 1637.6 KB)
+0013.301 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 400 files added (on-disk size: 1637.6 KB)
+0014.048 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.2 MB, 185 (418) files added so far); re-opening (prior size: 1637.6 KB)
+0017.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7 MB, 82 (500) files added so far); re-opening (prior size: 2922.9 KB)
+0018.091 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 500 files added (on-disk size: 5600.8 KB)
+0019.416 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 600 files added (on-disk size: 5600.8 KB)
+0019.899 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 700 files added (on-disk size: 5600.8 KB)
+0020.786 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 800 files added (on-disk size: 5600.8 KB)
+0021.032 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.8 MB, 317 (817) files added so far); re-opening (prior size: 5600.8 KB)
+0023.045 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 900 files added (on-disk size: 6818.6 KB)
+0024.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 145 (962) files added so far); re-opening (prior size: 6818.6 KB)
+0026.182 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1000 files added (on-disk size: 7470.8 KB)
+0026.944 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1100 files added (on-disk size: 7470.8 KB)
+0027.065 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 139 (1101) files added so far); re-opening (prior size: 7470.8 KB)
+0029.143 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1200 files added (on-disk size: 8752.2 KB)
+0030.014 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 199 (1300) files added so far); re-opening (prior size: 8752.2 KB)
+0030.326 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1300 files added (on-disk size: 9645.7 KB)
+0030.950 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1400 files added (on-disk size: 9645.7 KB)
+0031.429 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1500 files added (on-disk size: 9645.7 KB)
+0032.364 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1600 files added (on-disk size: 9645.7 KB)
+0033.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 363 (1663) files added so far); re-opening (prior size: 9645.7 KB)
+0033.712 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1700 files added (on-disk size: 10127.4 KB)
+0035.615 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1800 files added (on-disk size: 10127.4 KB)
+0036.062 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 160 (1823) files added so far); re-opening (prior size: 10127.4 KB)
+0037.190 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 1900 files added (on-disk size: 10386.9 KB)
+0038.997 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2000 files added (on-disk size: 10386.9 KB)
+0039.038 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 178 (2001) files added so far); re-opening (prior size: 10386.9 KB)
+0042.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 89 (2090) files added so far); re-opening (prior size: 10893.2 KB)
+0042.690 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2100 files added (on-disk size: 11597.9 KB)
+0044.226 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2200 files added (on-disk size: 11597.9 KB)
+0045.036 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 153 (2243) files added so far); re-opening (prior size: 11597.9 KB)
+0046.286 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2300 files added (on-disk size: 12412.8 KB)
+0047.626 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2400 files added (on-disk size: 12412.8 KB)
+0048.013 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 204 (2447) files added so far); re-opening (prior size: 12412.8 KB)
+0049.200 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2500 files added (on-disk size: 13068.3 KB)
+0050.462 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2600 files added (on-disk size: 13068.3 KB)
+0051.030 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.5 MB, 183 (2630) files added so far); re-opening (prior size: 13068.3 KB)
+0052.330 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2700 files added (on-disk size: 14145.4 KB)
+0053.887 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2800 files added (on-disk size: 14145.4 KB)
+0054.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4 MB, 174 (2804) files added so far); re-opening (prior size: 14145.4 KB)
+0055.818 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 2900 files added (on-disk size: 15457.4 KB)
+0057.017 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 166 (2970) files added so far); re-opening (prior size: 15457.4 KB)
+0058.114 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3000 files added (on-disk size: 16066.6 KB)
+0059.645 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3100 files added (on-disk size: 16066.6 KB)
+0060.064 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 140 (3110) files added so far); re-opening (prior size: 16066.6 KB)
+0063.027 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 87 (3197) files added so far); re-opening (prior size: 16871.2 KB)
+0063.621 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3200 files added (on-disk size: 17392 KB)
+0066.036 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 35 (3232) files added so far); re-opening (prior size: 17392 KB)
+0069.600 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3300 files added (on-disk size: 18318.3 KB)
+0070.031 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (9.5 MB, 78 (3310) files added so far); re-opening (prior size: 18318.3 KB)
+0074.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 55 (3365) files added so far); re-opening (prior size: 20819.1 KB)
+0075.163 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3400 files added (on-disk size: 20974.6 KB)
+0077.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 60 (3425) files added so far); re-opening (prior size: 20974.6 KB)
+0078.568 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3500 files added (on-disk size: 21043.2 KB)
+0080.012 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 170 (3595) files added so far); re-opening (prior size: 21043.2 KB)
+0080.638 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3600 files added (on-disk size: 21232.5 KB)
+0082.601 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3700 files added (on-disk size: 21232.5 KB)
+0083.023 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 125 (3720) files added so far); re-opening (prior size: 21232.5 KB)
+0085.055 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3800 files added (on-disk size: 21528.2 KB)
+0086.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 126 (3846) files added so far); re-opening (prior size: 21528.2 KB)
+0087.644 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 3900 files added (on-disk size: 21649.5 KB)
+0089.029 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 123 (3969) files added so far); re-opening (prior size: 21649.5 KB)
+0090.987 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4000 files added (on-disk size: 21792.9 KB)
+0092.043 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 71 (4040) files added so far); re-opening (prior size: 21792.9 KB)
+0093.507 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4100 files added (on-disk size: 22102.3 KB)
+0094.860 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4200 files added (on-disk size: 22102.3 KB)
+0095.015 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 164 (4204) files added so far); re-opening (prior size: 22102.3 KB)
+0097.595 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4300 files added (on-disk size: 22257.4 KB)
+0098.020 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.1 MB, 138 (4342) files added so far); re-opening (prior size: 22257.4 KB)
+0099.637 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4400 files added (on-disk size: 24744.1 KB)
+0101.020 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.1 MB, 140 (4482) files added so far); re-opening (prior size: 24744.1 KB)
+0101.897 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4500 files added (on-disk size: 25770.1 KB)
+0104.020 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 117 (4599) files added so far); re-opening (prior size: 25770.1 KB)
+0104.447 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4600 files added (on-disk size: 26093.2 KB)
+0107.037 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.8 MB, 65 (4664) files added so far); re-opening (prior size: 26093.2 KB)
+0108.667 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4700 files added (on-disk size: 26674.9 KB)
+0110.067 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 64 (4728) files added so far); re-opening (prior size: 26674.9 KB)
+0113.023 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 51 (4779) files added so far); re-opening (prior size: 26799.6 KB)
+0114.239 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4800 files added (on-disk size: 26915.7 KB)
+0115.697 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 4900 files added (on-disk size: 26915.7 KB)
+0116.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 160 (4939) files added so far); re-opening (prior size: 26915.7 KB)
+0117.702 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5000 files added (on-disk size: 27391.2 KB)
+0119.021 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 135 (5074) files added so far); re-opening (prior size: 27391.2 KB)
+0119.797 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5100 files added (on-disk size: 27721.5 KB)
+0121.045 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5200 files added (on-disk size: 27721.5 KB)
+0122.027 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.3 MB, 156 (5230) files added so far); re-opening (prior size: 27721.5 KB)
+0123.552 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5300 files added (on-disk size: 28882.2 KB)
+0124.424 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5400 files added (on-disk size: 28882.2 KB)
+0125.016 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 225 (5455) files added so far); re-opening (prior size: 28882.2 KB)
+0126.548 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5500 files added (on-disk size: 29262.8 KB)
+0127.805 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5600 files added (on-disk size: 29262.8 KB)
+0128.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 154 (5609) files added so far); re-opening (prior size: 29262.8 KB)
+0130.390 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5700 files added (on-disk size: 29502.1 KB)
+0131.017 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 159 (5768) files added so far); re-opening (prior size: 29502.1 KB)
+0133.196 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5800 files added (on-disk size: 29668.4 KB)
+0134.109 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 65 (5833) files added so far); re-opening (prior size: 29668.4 KB)
+0137.040 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 67 (5900) files added so far); re-opening (prior size: 30205.4 KB)
+0137.459 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 5900 files added (on-disk size: 30976.8 KB)
+0138.975 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6000 files added (on-disk size: 30976.8 KB)
+0139.493 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6100 files added (on-disk size: 30976.8 KB)
+0140.064 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.8 MB, 297 (6197) files added so far); re-opening (prior size: 30976.8 KB)
+0140.938 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6200 files added (on-disk size: 31743.3 KB)
+0143.012 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 84 (6281) files added so far); re-opening (prior size: 31743.3 KB)
+0144.336 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6300 files added (on-disk size: 31829.9 KB)
+0145.254 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6400 files added (on-disk size: 31829.9 KB)
+0146.024 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 192 (6473) files added so far); re-opening (prior size: 31829.9 KB)
+0147.846 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6500 files added (on-disk size: 32022 KB)
+0149.261 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.3 MB, 73 (6546) files added so far); re-opening (prior size: 32022 KB)
+0152.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 28 (6574) files added so far); re-opening (prior size: 32846.7 KB)
+0153.053 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6600 files added (on-disk size: 33083 KB)
+0155.255 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 87 (6661) files added so far); re-opening (prior size: 33083 KB)
+0157.039 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6700 files added (on-disk size: 33305 KB)
+0158.023 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 71 (6732) files added so far); re-opening (prior size: 33305 KB)
+0160.833 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6800 files added (on-disk size: 33444.3 KB)
+0161.019 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 98 (6830) files added so far); re-opening (prior size: 33444.3 KB)
+0165.010 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 66 (6896) files added so far); re-opening (prior size: 33506.1 KB)
+0167.234 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip.tmp: 6900 files added (on-disk size: 34079.3 KB)
+0168.058 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 13 (6909) files added so far); re-opening (prior size: 34079.3 KB)
+0169.292 (0) Created plugins zip (0) - 34198.9 KB in 167.2 s (204.5 KB/s) (sha1: 9be85a64df2fb3b2ea3fe3dfc946068ba52caae1, sha256: 0860fd55a5ae9a9cecd953b0c2af0880f1541d0ed6dccd1111b21b58a04fea52)
+0169.592 (0) Beginning creation of dump of themes (split every: 400 MB)
+0170.426 (0) Total entities for the zip file: 99 directories, 571 files (0 skipped as non-modified), 13 MB
+0172.024 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 70 (70) files added so far); re-opening (prior size: 0 KB)
+0172.503 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip.tmp: 100 files added (on-disk size: 152.3 KB)
+0174.251 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip.tmp: 200 files added (on-disk size: 152.3 KB)
+0175.011 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.8 MB, 189 (259) files added so far); re-opening (prior size: 152.3 KB)
+0176.409 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip.tmp: 300 files added (on-disk size: 2725.4 KB)
+0177.939 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip.tmp: 400 files added (on-disk size: 2725.4 KB)
+0178.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.9 MB, 142 (401) files added so far); re-opening (prior size: 2725.4 KB)
+0180.822 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip.tmp: 500 files added (on-disk size: 3739.4 KB)
+0181.782 (0) Created themes zip (0) - 3961 KB in 11.8 s (335.5 KB/s) (sha1: aa97e9b6b003baad1d55a9743afce23873798658, sha256: 942653e447c23b8d2d202aa23043e508a269500f7741bb5431a8e4561c93fe68)
+0181.825 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0181.868 (0) Looking for candidates to backup in: D:\Programs\xampp\htdocs\wordpress/wp-content/uploads
+0181.902 (0) finding files: 2020: adding to list (1)
+0182.176 (0) finding files: elementor: adding to list (2)
+0182.199 (0) finding files: wc-logs: adding to list (3)
+0182.231 (0) finding files: woocommerce_uploads: adding to list (4)
+0182.276 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0182.733 (0) Total entities for the zip file: 9 directories, 264 files (0 skipped as non-modified), 8.6 MB
+0184.065 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0185.014 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.6 MB, 172 (172) files added so far); re-opening (prior size: 0 KB)
+0185.542 (0) Zip: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip.tmp: 200 files added (on-disk size: 5817.3 KB)
+0186.705 (0) Created uploads zip (0) - 8728.7 KB in 4.4 s (1991.4 KB/s) (sha1: b809afa83c81d6db1b8cfa19b03be0f331ce1190, sha256: fe015b4bf9a4174cfa7e9e72531c90fe2a979e4c64025a14d96e8c780157d96e)
+0186.838 (0) Beginning backup of other directories found in the content directory (index: 0)
+0186.850 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0186.871 (0) Looking for candidates to backup in: D:\Programs\xampp\htdocs\wordpress/wp-content
+0186.894 (0) finding files: cache: skipping: excluded by options
+0186.948 (0) finding files: index.php: adding to list (1)
+0186.981 (0) finding files: plugins: skipping: this is the plugins directory
+0187.025 (0) finding files: themes: skipping: this is the themes directory
+0187.080 (0) finding files: updraft: skipping: this is the updraft directory
+0187.142 (0) finding files: upgrade: skipping: excluded by options
+0187.270 (0) finding files: uploads: skipping: this is the uploads directory
+0187.479 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0187.972 (0) Created others zip (0) - 0.1 KB in 0.6 s (0.3 KB/s) (sha1: e9feb6d7abbbea35ff0a3a959a2a11ad327a3db9, sha256: 042e59b879e2bf02542727c282020685aa6b52090476ad6967c0aa04bbdf906d)
+0188.213 (0) Saving backup status to database (elements: 8)
+0188.334 (0) Beginning creation of database dump (WordPress DB)
+0188.819 (0) Table wp_options: Total expected rows (approximate): 479
+0189.268 (0) Table wp_options: Total rows added: 485 in 0.38 seconds
+0189.423 (0) Table wp_options: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_options.table.gz - 134.2 KB)
+0189.790 (0) Table wp_users: Total expected rows (approximate): 1
+0189.881 (0) Table wp_users: Total rows added: 1 in 0.02 seconds
+0189.945 (0) Table wp_users: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_users.table.gz - 0.6 KB)
+0191.223 (0) Table wp_usermeta: Total expected rows (approximate): 58
+0191.471 (0) Table wp_usermeta: Total rows added: 58 in 0.02 seconds
+0191.576 (0) Table wp_usermeta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_usermeta.table.gz - 2.3 KB)
+0192.007 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 0
+0192.086 (0) Table wp_actionscheduler_actions: Total rows added: 0 in 0.02 seconds
+0192.170 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_actions.table.gz - 0.5 KB)
+0192.544 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0192.729 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.03 seconds
+0192.947 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0193.525 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0193.591 (0) Table wp_actionscheduler_groups: Total rows added: 3 in 0.01 seconds
+0193.841 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0194.144 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 0
+0194.311 (0) Table wp_actionscheduler_logs: Total rows added: 0 in 0.13 seconds
+0194.373 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_logs.table.gz - 0.4 KB)
+0194.606 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0194.712 (0) Table wp_commentmeta: Total rows added: 0 in 0.04 seconds
+0194.803 (0) Table wp_commentmeta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0195.203 (0) Table wp_comments: Total expected rows (approximate): 0
+0195.455 (0) Table wp_comments: Total rows added: 0 in 0.09 seconds
+0195.521 (0) Table wp_comments: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_comments.table.gz - 0.5 KB)
+0195.759 (0) Table wp_links: Total expected rows (approximate): 0
+0195.793 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0195.848 (0) Table wp_links: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_links.table.gz - 0.4 KB)
+0196.054 (0) Table wp_postmeta: Total expected rows (approximate): 2217
+0196.538 (0) Table wp_postmeta: Total rows added: 2122 in 0.44 seconds
+0196.578 (0) Table wp_postmeta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_postmeta.table.gz - 72.1 KB)
+0196.739 (0) Table wp_posts: Total expected rows (approximate): 203
+0197.356 (0) Table wp_posts: Total rows added: 223 in 0.54 seconds
+0197.468 (0) Table wp_posts: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_posts.table.gz - 45.6 KB)
+0197.596 (0) Table wp_term_relationships: Total expected rows (approximate): 137
+0197.742 (0) Table wp_term_relationships: Total rows added: 146 in 0.09 seconds
+0197.829 (0) Table wp_term_relationships: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_term_relationships.table.gz - 0.7 KB)
+0197.969 (0) Table wp_term_taxonomy: Total expected rows (approximate): 58
+0198.044 (0) Table wp_term_taxonomy: Total rows added: 60 in 0.03 seconds
+0198.120 (0) Table wp_term_taxonomy: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_term_taxonomy.table.gz - 0.9 KB)
+0198.256 (0) Table wp_termmeta: Total expected rows (approximate): 57
+0198.348 (0) Table wp_termmeta: Total rows added: 59 in 0.04 seconds
+0198.434 (0) Table wp_termmeta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_termmeta.table.gz - 0.8 KB)
+0198.960 (0) Table wp_terms: Total expected rows (approximate): 55
+0199.061 (0) Table wp_terms: Total rows added: 60 in 0.04 seconds
+0199.150 (0) Table wp_terms: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_terms.table.gz - 1 KB)
+0199.360 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0199.538 (0) Table wp_wc_category_lookup: Total rows added: 1 in 0.03 seconds
+0199.665 (0) Table wp_wc_category_lookup: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0199.805 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 26
+0199.954 (0) Table wp_wc_product_meta_lookup: Total rows added: 29 in 0.05 seconds
+0200.036 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_product_meta_lookup.table.gz - 0.9 KB)
+0200.225 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0200.378 (0) Table wp_wc_tax_rate_classes: Total rows added: 2 in 0.04 seconds
+0200.552 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0201.391 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0201.500 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.05 seconds
+0201.575 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0201.750 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0201.811 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.03 seconds
+0201.941 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0202.239 (0) Table wp_tinvwl_analytics: Total expected rows (approximate): 4
+0202.355 (0) Table wp_tinvwl_analytics: Total rows added: 4 in 0.05 seconds
+0202.424 (0) Table wp_tinvwl_analytics: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_tinvwl_analytics.table.gz - 0.5 KB)
+0202.593 (0) Table wp_tinvwl_items: Total expected rows (approximate): 3
+0202.656 (0) Table wp_tinvwl_items: Total rows added: 4 in 0.02 seconds
+0202.707 (0) Table wp_tinvwl_items: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_tinvwl_items.table.gz - 0.5 KB)
+0202.820 (0) Table wp_tinvwl_lists: Total expected rows (approximate): 0
+0202.960 (0) Table wp_tinvwl_lists: Total rows added: 1 in 0.11 seconds
+0202.998 (0) Table wp_tinvwl_lists: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_tinvwl_lists.table.gz - 0.4 KB)
+0203.275 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 10
+0203.345 (0) Table wp_wc_admin_note_actions: Total rows added: 12 in 0.02 seconds
+0203.400 (0) Table wp_wc_admin_note_actions: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_admin_note_actions.table.gz - 0.8 KB)
+0203.542 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 8
+0203.583 (0) Table wp_wc_admin_notes: Total rows added: 9 in 0.02 seconds
+0203.644 (0) Table wp_wc_admin_notes: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_admin_notes.table.gz - 1.6 KB)
+0203.800 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0203.885 (0) Table wp_wc_customer_lookup: Total rows added: 0 in 0.03 seconds
+0203.964 (0) Table wp_wc_customer_lookup: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_customer_lookup.table.gz - 0.4 KB)
+0204.502 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0204.595 (0) Table wp_wc_download_log: Total rows added: 0 in 0.05 seconds
+0204.647 (0) Table wp_wc_download_log: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0204.795 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0204.840 (0) Table wp_wc_order_coupon_lookup: Total rows added: 0 in 0.01 seconds
+0204.878 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0204.998 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0205.049 (0) Table wp_wc_order_product_lookup: Total rows added: 0 in 0.02 seconds
+0205.111 (0) Table wp_wc_order_product_lookup: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0205.373 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0205.496 (0) Table wp_wc_order_stats: Total rows added: 0 in 0.06 seconds
+0205.629 (0) Table wp_wc_order_stats: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0205.730 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0205.782 (0) Table wp_wc_order_tax_lookup: Total rows added: 0 in 0.02 seconds
+0205.843 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0205.955 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0205.993 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.01 seconds
+0206.050 (0) Table wp_wc_webhooks: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0206.213 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0206.316 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.05 seconds
+0206.392 (0) Table wp_woocommerce_api_keys: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0206.817 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+0206.930 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 2 in 0.01 seconds
+0206.987 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0207.088 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0207.174 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.04 seconds
+0207.252 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0207.363 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0207.423 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.01 seconds
+0207.469 (0) Table wp_woocommerce_log: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0207.885 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0208.193 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.16 seconds
+0208.273 (0) Table wp_woocommerce_order_items: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0208.477 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0208.503 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.01 seconds
+0208.548 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0208.757 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0208.791 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.02 seconds
+0208.838 (0) Table wp_woocommerce_sessions: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_sessions.table.gz - 1.1 KB)
+0208.974 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 2
+0209.066 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 2 in 0.03 seconds
+0209.113 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0209.276 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 2
+0209.317 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 2 in 0.01 seconds
+0209.368 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0209.506 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 2
+0209.554 (0) Table wp_woocommerce_shipping_zones: Total rows added: 2 in 0.02 seconds
+0209.613 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0209.887 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0210.061 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.02 seconds
+0210.792 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0210.927 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0210.992 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.04 seconds
+0211.059 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0211.144 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 2
+0211.198 (0) Table wp_wpforms_tasks_meta: Total rows added: 2 in 0.02 seconds
+0211.253 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wpforms_tasks_meta.table.gz - 0.4 KB)
+0211.551 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_options.table.gz (1/46): adding to final database dump
+0211.755 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_users.table.gz (2/46): adding to final database dump
+0211.792 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_usermeta.table.gz (3/46): adding to final database dump
+0211.835 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_actions.table.gz (4/46): adding to final database dump
+0211.899 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_claims.table.gz (5/46): adding to final database dump
+0211.925 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_groups.table.gz (6/46): adding to final database dump
+0211.991 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_actionscheduler_logs.table.gz (7/46): adding to final database dump
+0212.060 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_commentmeta.table.gz (8/46): adding to final database dump
+0212.097 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_comments.table.gz (9/46): adding to final database dump
+0212.123 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_links.table.gz (10/46): adding to final database dump
+0212.155 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_postmeta.table.gz (11/46): adding to final database dump
+0212.241 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_posts.table.gz (12/46): adding to final database dump
+0212.295 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_term_relationships.table.gz (13/46): adding to final database dump
+0212.332 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_term_taxonomy.table.gz (14/46): adding to final database dump
+0212.372 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_termmeta.table.gz (15/46): adding to final database dump
+0212.398 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_terms.table.gz (16/46): adding to final database dump
+0212.439 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_category_lookup.table.gz (17/46): adding to final database dump
+0212.464 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_product_meta_lookup.table.gz (18/46): adding to final database dump
+0212.504 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_tax_rate_classes.table.gz (19/46): adding to final database dump
+0212.552 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_order_itemmeta.table.gz (20/46): adding to final database dump
+0212.677 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_payment_tokenmeta.table.gz (21/46): adding to final database dump
+0212.851 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_tinvwl_analytics.table.gz (22/46): adding to final database dump
+0212.967 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_tinvwl_items.table.gz (23/46): adding to final database dump
+0213.077 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_tinvwl_lists.table.gz (24/46): adding to final database dump
+0213.127 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_admin_note_actions.table.gz (25/46): adding to final database dump
+0213.157 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_admin_notes.table.gz (26/46): adding to final database dump
+0213.245 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_customer_lookup.table.gz (27/46): adding to final database dump
+0213.329 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_download_log.table.gz (28/46): adding to final database dump
+0213.492 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_coupon_lookup.table.gz (29/46): adding to final database dump
+0213.542 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_product_lookup.table.gz (30/46): adding to final database dump
+0213.597 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_stats.table.gz (31/46): adding to final database dump
+0213.652 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_order_tax_lookup.table.gz (32/46): adding to final database dump
+0213.706 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wc_webhooks.table.gz (33/46): adding to final database dump
+0213.762 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_api_keys.table.gz (34/46): adding to final database dump
+0213.828 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_attribute_taxonomies.table.gz (35/46): adding to final database dump
+0213.955 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (36/46): adding to final database dump
+0214.103 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_log.table.gz (37/46): adding to final database dump
+0214.146 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_order_items.table.gz (38/46): adding to final database dump
+0214.197 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_payment_tokens.table.gz (39/46): adding to final database dump
+0214.224 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_sessions.table.gz (40/46): adding to final database dump
+0214.264 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_shipping_zone_locations.table.gz (41/46): adding to final database dump
+0214.311 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_shipping_zone_methods.table.gz (42/46): adding to final database dump
+0214.367 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_shipping_zones.table.gz (43/46): adding to final database dump
+0214.400 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_tax_rate_locations.table.gz (44/46): adding to final database dump
+0214.443 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_woocommerce_tax_rates.table.gz (45/46): adding to final database dump
+0214.487 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db-table-wp_wpforms_tasks_meta.table.gz (46/46): adding to final database dump
+0214.563 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: finished writing out complete database file (240 KB)
+0214.783 (0) Total database tables backed up: 46 (backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz, size: 270366, sha1: 8958580746d21427d6513a3567e5a6fb34925bef, sha256: 7743779c0d575c1cb38a16ed2409036779312f02441a586cc650959f98032080)
+0214.894 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0215.006 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0215.267 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0215.449 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0215.499 (0) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0215.537 (0) Saving backup history. Total backup size: 46 MB
+0215.631 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0215.751 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0215.780 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+0219.802 (0) Google Drive: quota usage: used=524.5 MB, total=15360 MB, available=14835.5 MB
+0221.150 (0) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+0281.842 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0281.968 (0) An error condition has occurred for the first time during this job
+0282.480 (0) Google Drive: quota usage: used=524.5 MB, total=15360 MB, available=14835.5 MB
+0282.523 (0) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+0284.458 (0) The time we have been running (284.3) is approaching the resumption interval (300) - increasing resumption interval to 315
+0284.563 (0) The scheduled resumption is within 45 seconds - will reschedule
+0284.645 (0) Rescheduling resumption 1: moving to 360 seconds from now (1593785860)
+0284.760 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 315 + 45 = 360
+0284.783 (0) Googledrive chunked upload: 25.9 % uploaded (1048576)
+0286.147 (0) Googledrive chunked upload: 51.7 % uploaded (2097152)
+0346.221 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0346.765 (0) Google Drive: quota usage: used=524.5 MB, total=15360 MB, available=14835.5 MB
+0346.822 (0) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+0407.480 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0408.213 (0) Google Drive: quota usage: used=524.5 MB, total=15360 MB, available=14835.5 MB
+0408.276 (0) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+0410.326 (0) The time we have been running (410.1) is approaching the resumption interval (360) - increasing resumption interval to 441
+0410.403 (0) Googledrive chunked upload: 100 % uploaded
+0410.530 (0) Google Drive: OK: Archive backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip uploaded in 2.22 seconds
+0410.574 (0) Recording as successfully uploaded: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip
+0410.669 (0) Deleting local file: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: OK
+0411.723 (0) Google Drive: quota usage: used=524.5 MB, total=15360 MB, available=14835.5 MB
+0411.762 (0) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+0414.126 (0) The time we have been running (414) is approaching the resumption interval (441) - increasing resumption interval to 444
+0414.208 (0) Googledrive chunked upload: 100 % uploaded
+0414.369 (0) Google Drive: OK: Archive backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz uploaded in 2.55 seconds
+0414.412 (0) Recording as successfully uploaded: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz
+0414.530 (0) Deleting local file: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: OK
+0414.614 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0414.655 (0) Number of backup sets in history: 3; groups (db): 1
+0414.703 (0) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+0414.761 (0) This backup set is the backup set just made, so will not be deleted.
+0414.761 (0) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+0414.761 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0414.801 (0) Examining (for databases) backup set with group_id=0, nonce=e1ea954cdae3, datestamp=1589080582 (May 10 2020 03:16:22)
+0414.801 (0) 1589080582: db: this set includes a database (backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-db.gz); db count is now 2
+0414.801 (0) 1589080582: db: over retain limit (2); will delete this database
+0414.801 (0) Delete file: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-db.gz, service=googledrive
+0416.910 (0) Google Drive: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-db.gz: Deletion successful
+0417.062 (0) The time we have been running (416.9) is approaching the resumption interval (444) - increasing resumption interval to 447
+0417.129 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0417.188 (0) Number of backup sets in history: 3; groups (files): 1
+0417.228 (0) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+0417.228 (0) This backup set is the backup set just made, so will not be deleted.
+0417.272 (0) This backup set is the backup set just made, so will not be deleted.
+0417.272 (0) This backup set is the backup set just made, so will not be deleted.
+0417.273 (0) This backup set is the backup set just made, so will not be deleted.
+0417.273 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0417.320 (0) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+0417.320 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0417.320 (0) Examining (for files) backup set with nonce=e1ea954cdae3, datestamp=1589080582 (May 10 2020 03:16:22)
+0417.320 (0) plugins: over retain limit (2); will delete this file entity
+0417.320 (0) themes: over retain limit (2); will delete this file entity
+0417.320 (0) uploads: over retain limit (2); will delete this file entity
+0417.320 (0) others: over retain limit (2); will delete this file entity
+0417.320 (0) Delete file: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-plugins.zip, service=googledrive
+0417.364 (0) Deleting local copy (backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-plugins.zip)
+0417.416 (0) Delete file: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-themes.zip, service=googledrive
+0417.451 (0) Delete file: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-uploads.zip, service=googledrive
+0417.525 (0) Delete file: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-others.zip, service=googledrive
+0419.265 (0) Google Drive: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-uploads.zip: Deletion successful
+0420.594 (0) Google Drive: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-themes.zip: Deletion successful
+0421.517 (0) Google Drive: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-others.zip: Deletion successful
+0421.572 (0) Google Drive: backup_2020-05-10-0516_eCommerce_Website_e1ea954cdae3-plugins.zip: Deletion failed: file was not found
+0421.758 (0) The time we have been running (421.6) is approaching the resumption interval (447) - increasing resumption interval to 452
+0421.839 (0) This backup set is now empty; will remove from history
+0421.906 (0) Corresponding log file (log.e1ea954cdae3.txt) not found - must have already been deleted
+0421.949 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0422.060 (0) Resume backup (5a4673d4a4cd, 0): finish run
+0422.169 (0) Decremented the semaphore (fd) by 1
+0422.257 (0) Semaphore (fd) unlocked
+0422.323 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0422.477 (0) Rescheduling resumption 1: moving to 100 seconds from now (1593785738)
+0422.586 (0) No email will/can be sent - the user has not configured an email address.
+0422.685 (0) The backup has not finished; a resumption is scheduled
+1805.947 (1) Opened log file at time: Fri, 03 Jul 2020 14:37:01 +0000 on http://localhost/wordpress
+1806.029 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63.6M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+1806.116 (1) Free space on disk containing Updraft's temporary directory: 1866321.2 MB
+1806.226 (1) Backup run: resumption=1, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (1807s ago), job type=backup, previous check-in=421.6s
+1806.248 (1) Long time past since expected resumption time: approx expected=1593786091.1, now=1593787021.9, diff=930.9
+1806.380 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1806.645 (1) Scheduling a resumption (2) after 452 seconds (1593787474) in case this run gets aborted
+1806.757 (1) Checking if we have a zip executable available
+1806.798 (1) Creation of backups of directories: already finished
+1806.843 (1) Saving backup status to database (elements: 8)
+1806.953 (1) Database dump (WordPress DB): Creation was completed already
+1807.041 (1) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1807.107 (1) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1807.151 (1) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1807.204 (1) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+1807.249 (1) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+1807.294 (1) Saving backup history. Total backup size: Unknown
+1807.470 (1) Requesting upload of the files that have not yet been successfully uploaded (3)
+1807.579 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1807.624 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+1809.847 (1) Google Drive: quota usage: used=512.1 MB, total=15360 MB, available=14847.9 MB
+1809.900 (1) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+1812.055 (1) Googledrive chunked upload: 3 % uploaded (1048576)
+1872.195 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1872.303 (1) An error condition has occurred for the first time during this job
+1872.925 (1) Google Drive: quota usage: used=512.1 MB, total=15360 MB, available=14847.9 MB
+1872.984 (1) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+1873.343 (1) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: upload already began; attempting to resume from byte 2883583
+1933.393 (1) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1934.287 (1) Google Drive: quota usage: used=512.1 MB, total=15360 MB, available=14847.9 MB
+1934.346 (1) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+1994.977 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1995.412 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1995.446 (1) Number of backup sets in history: 2; groups (db): 1
+1995.489 (1) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+1995.522 (1) This backup set is the backup set just made, so will not be deleted.
+1995.522 (1) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+1995.522 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1995.566 (1) Number of backup sets in history: 2; groups (files): 1
+1995.610 (1) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+1995.610 (1) This backup set is the backup set just made, so will not be deleted.
+1995.654 (1) This backup set is the backup set just made, so will not be deleted.
+1995.654 (1) This backup set is the backup set just made, so will not be deleted.
+1995.654 (1) This backup set is the backup set just made, so will not be deleted.
+1995.654 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1995.676 (1) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+1995.676 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1995.676 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1995.731 (1) Resume backup (5a4673d4a4cd, 1): finish run
+1995.786 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1995.850 (1) No email will/can be sent - the user has not configured an email address.
+1995.893 (1) The backup has not finished; a resumption is scheduled
+2269.689 (2) Opened log file at time: Fri, 03 Jul 2020 14:44:45 +0000 on http://localhost/wordpress
+2269.721 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63.6M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+2269.764 (2) Free space on disk containing Updraft's temporary directory: 1866321.2 MB
+2269.827 (2) Backup run: resumption=2, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (2270s ago), job type=backup, previous check-in=6s
+2269.896 (2) Scheduling a resumption (3) after 452 seconds (1593787937) in case this run gets aborted
+2269.982 (2) Checking if we have a zip executable available
+2270.017 (2) Creation of backups of directories: already finished
+2270.051 (2) Saving backup status to database (elements: 8)
+2270.149 (2) Database dump (WordPress DB): Creation was completed already
+2270.238 (2) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2270.292 (2) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2270.325 (2) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2270.388 (2) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+2270.457 (2) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+2270.556 (2) Saving backup history. Total backup size: Unknown
+2270.776 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+2270.930 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2270.985 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+2272.893 (2) Google Drive: quota usage: used=512.1 MB, total=15360 MB, available=14847.9 MB
+2272.928 (2) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+2273.287 (2) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 2097151
+2333.338 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2333.389 (2) An error condition has occurred for the first time during this job
+2334.027 (2) Google Drive: quota usage: used=512.1 MB, total=15360 MB, available=14847.9 MB
+2334.053 (2) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+2334.401 (2) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: upload already began; attempting to resume from byte 3932159
+2336.307 (2) Googledrive chunked upload: 100 % uploaded (3932160)
+2336.418 (2) Google Drive: OK: Archive backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip uploaded in 2.32 seconds
+2336.462 (2) Recording as successfully uploaded: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip
+2336.550 (2) Deleting local file: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: OK
+2337.202 (2) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+2337.242 (2) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+2337.570 (2) Google Drive: Upload error: Failed to start the resumable upload (HTTP 403: usageLimits, Rate Limit Exceeded) (line: 321, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2337.649 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2337.705 (2) Number of backup sets in history: 2; groups (db): 1
+2337.781 (2) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+2337.832 (2) This backup set is the backup set just made, so will not be deleted.
+2337.832 (2) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+2337.832 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2337.876 (2) Number of backup sets in history: 2; groups (files): 1
+2337.924 (2) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+2337.924 (2) This backup set is the backup set just made, so will not be deleted.
+2337.975 (2) This backup set is the backup set just made, so will not be deleted.
+2337.975 (2) This backup set is the backup set just made, so will not be deleted.
+2337.975 (2) This backup set is the backup set just made, so will not be deleted.
+2337.975 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2338.012 (2) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+2338.012 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2338.062 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2338.122 (2) Resume backup (5a4673d4a4cd, 2): finish run
+2338.188 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2338.271 (2) No email will/can be sent - the user has not configured an email address.
+2338.316 (2) The backup has not finished; a resumption is scheduled
+2832.465 (3) Opened log file at time: Fri, 03 Jul 2020 14:54:08 +0000 on http://localhost/wordpress
+2832.497 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63.6M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+2832.528 (3) Free space on disk containing Updraft's temporary directory: 1866324.8 MB
+2832.607 (3) Backup run: resumption=3, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (2833s ago), job type=backup, previous check-in=66.6s
+2832.693 (3) Scheduling a resumption (4) after 452 seconds (1593788500) in case this run gets aborted
+2832.876 (3) Checking if we have a zip executable available
+2832.915 (3) Creation of backups of directories: already finished
+2832.970 (3) Saving backup status to database (elements: 8)
+2833.078 (3) Database dump (WordPress DB): Creation was completed already
+2833.178 (3) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2833.221 (3) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+2833.268 (3) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2833.312 (3) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+2833.344 (3) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+2833.388 (3) Saving backup history. Total backup size: Unknown
+2833.476 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+2833.564 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2833.595 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+2840.266 (3) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+2840.436 (3) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+2840.795 (3) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 2883583
+2900.845 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2901.226 (3) An error condition has occurred for the first time during this job
+2901.839 (3) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+2901.897 (3) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+2962.544 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2962.731 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2962.776 (3) Number of backup sets in history: 2; groups (db): 1
+2962.819 (3) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+2962.896 (3) This backup set is the backup set just made, so will not be deleted.
+2962.896 (3) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+2962.896 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2962.940 (3) Number of backup sets in history: 2; groups (files): 1
+2962.984 (3) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+2962.984 (3) This backup set is the backup set just made, so will not be deleted.
+2963.039 (3) This backup set is the backup set just made, so will not be deleted.
+2963.083 (3) This backup set is the backup set just made, so will not be deleted.
+2963.083 (3) This backup set is the backup set just made, so will not be deleted.
+2963.083 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2963.138 (3) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+2963.138 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2963.138 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2963.215 (3) Resume backup (5a4673d4a4cd, 3): finish run
+2963.259 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2963.303 (3) No email will/can be sent - the user has not configured an email address.
+2963.393 (3) The backup has not finished; a resumption is scheduled
+6176.051 (4) Opened log file at time: Fri, 03 Jul 2020 15:49:52 +0000 on http://localhost/wordpress
+6176.094 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63.6M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+6176.138 (4) Free space on disk containing Updraft's temporary directory: 1866324.8 MB
+6176.215 (4) Backup run: resumption=4, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (6177s ago), job type=backup
+6176.258 (4) Long time past since expected resumption time: approx expected=1593788500.5, now=1593791392, diff=2891.6
+6176.303 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+6176.390 (4) Scheduling a resumption (5) after 452 seconds (1593791844) in case this run gets aborted
+6176.506 (4) Checking if we have a zip executable available
+6176.555 (4) Creation of backups of directories: already finished
+6176.600 (4) Saving backup status to database (elements: 8)
+6176.699 (4) Database dump (WordPress DB): Creation was completed already
+6176.787 (4) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+6176.830 (4) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+6176.875 (4) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6176.918 (4) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+6176.963 (4) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+6177.099 (4) Saving backup history. Total backup size: Unknown
+6177.303 (4) Requesting upload of the files that have not yet been successfully uploaded (2)
+6177.391 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6177.435 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+6180.836 (4) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+6180.877 (4) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+6181.254 (4) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 3670015
+6241.298 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6241.340 (4) An error condition has occurred for the first time during this job
+6242.068 (4) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+6242.132 (4) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+6302.787 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6302.975 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+6303.043 (4) Number of backup sets in history: 2; groups (db): 1
+6303.072 (4) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+6303.097 (4) This backup set is the backup set just made, so will not be deleted.
+6303.097 (4) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+6303.097 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+6303.140 (4) Number of backup sets in history: 2; groups (files): 1
+6303.184 (4) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+6303.185 (4) This backup set is the backup set just made, so will not be deleted.
+6303.228 (4) This backup set is the backup set just made, so will not be deleted.
+6303.229 (4) This backup set is the backup set just made, so will not be deleted.
+6303.229 (4) This backup set is the backup set just made, so will not be deleted.
+6303.229 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+6303.273 (4) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+6303.273 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+6303.273 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+6303.361 (4) Resume backup (5a4673d4a4cd, 4): finish run
+6303.448 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6303.534 (4) No email will/can be sent - the user has not configured an email address.
+6303.570 (4) The backup has not finished; a resumption is scheduled
+6644.591 (5) Opened log file at time: Fri, 03 Jul 2020 15:57:40 +0000 on http://localhost/wordpress
+6644.655 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.1M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+6644.809 (5) Free space on disk containing Updraft's temporary directory: 1866323.1 MB
+6646.058 (5) Backup run: resumption=5, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (6647s ago), job type=backup
+6646.152 (5) Scheduling a resumption (6) after 452 seconds (1593792314) in case this run gets aborted
+6646.253 (5) Checking if we have a zip executable available
+6646.303 (5) Creation of backups of directories: already finished
+6646.329 (5) Saving backup status to database (elements: 8)
+6646.427 (5) Database dump (WordPress DB): Creation was completed already
+6646.538 (5) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+6646.577 (5) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+6646.615 (5) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6646.670 (5) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+6646.725 (5) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+6646.769 (5) Saving backup history. Total backup size: Unknown
+6646.868 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+6646.962 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6647.000 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+6648.797 (5) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+6648.831 (5) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+6649.216 (5) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 4718591
+6709.267 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6709.619 (5) An error condition has occurred for the first time during this job
+6710.281 (5) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+6710.328 (5) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+6771.011 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6771.179 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+6771.213 (5) Number of backup sets in history: 2; groups (db): 1
+6771.239 (5) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+6771.315 (5) This backup set is the backup set just made, so will not be deleted.
+6771.315 (5) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+6771.315 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+6771.344 (5) Number of backup sets in history: 2; groups (files): 1
+6771.388 (5) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+6771.388 (5) This backup set is the backup set just made, so will not be deleted.
+6771.421 (5) This backup set is the backup set just made, so will not be deleted.
+6771.421 (5) This backup set is the backup set just made, so will not be deleted.
+6771.421 (5) This backup set is the backup set just made, so will not be deleted.
+6771.421 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+6771.459 (5) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+6771.459 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+6771.460 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+6771.504 (5) Resume backup (5a4673d4a4cd, 5): finish run
+6771.658 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6771.724 (5) No email will/can be sent - the user has not configured an email address.
+6771.762 (5) The backup has not finished; a resumption is scheduled
+7127.760 (6) Opened log file at time: Fri, 03 Jul 2020 16:05:43 +0000 on http://localhost/wordpress
+7127.836 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.1M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+7127.879 (6) Free space on disk containing Updraft's temporary directory: 1866323.1 MB
+7127.951 (6) Backup run: resumption=6, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (7128s ago), job type=backup
+7128.110 (6) Scheduling a resumption (7) after 452 seconds (1593792796) in case this run gets aborted
+7128.207 (6) Checking if we have a zip executable available
+7128.248 (6) Creation of backups of directories: already finished
+7128.287 (6) Saving backup status to database (elements: 8)
+7128.439 (6) Database dump (WordPress DB): Creation was completed already
+7128.579 (6) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7128.638 (6) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+7128.682 (6) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7128.721 (6) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+7128.776 (6) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+7128.820 (6) Saving backup history. Total backup size: Unknown
+7128.930 (6) Requesting upload of the files that have not yet been successfully uploaded (2)
+7129.040 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+7129.095 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+7131.100 (6) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+7131.141 (6) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+7131.466 (6) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 5505023
+7132.915 (6) Googledrive chunked upload: 18.7 % uploaded (6553600)
+7193.013 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+7193.396 (6) An error condition has occurred for the first time during this job
+7193.972 (6) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+7194.012 (6) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+7254.731 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+7254.922 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7254.956 (6) Number of backup sets in history: 2; groups (db): 1
+7254.995 (6) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+7255.032 (6) This backup set is the backup set just made, so will not be deleted.
+7255.032 (6) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+7255.032 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+7255.076 (6) Number of backup sets in history: 2; groups (files): 1
+7255.109 (6) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+7255.109 (6) This backup set is the backup set just made, so will not be deleted.
+7255.153 (6) This backup set is the backup set just made, so will not be deleted.
+7255.153 (6) This backup set is the backup set just made, so will not be deleted.
+7255.153 (6) This backup set is the backup set just made, so will not be deleted.
+7255.153 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+7255.186 (6) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+7255.186 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+7255.186 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7255.274 (6) Resume backup (5a4673d4a4cd, 6): finish run
+7255.318 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7255.373 (6) No email will/can be sent - the user has not configured an email address.
+7255.395 (6) The backup has not finished; a resumption is scheduled
+7592.341 (7) Opened log file at time: Fri, 03 Jul 2020 16:13:28 +0000 on http://localhost/wordpress
+7592.381 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.1M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+7592.458 (7) Free space on disk containing Updraft's temporary directory: 1866323.1 MB
+7592.581 (7) Backup run: resumption=7, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (7593s ago), job type=backup, previous check-in=5.1s
+7592.666 (7) Scheduling a resumption (8) after 452 seconds (1593793260) in case this run gets aborted
+7592.753 (7) Checking if we have a zip executable available
+7592.790 (7) Creation of backups of directories: already finished
+7592.832 (7) Saving backup status to database (elements: 8)
+7592.942 (7) Database dump (WordPress DB): Creation was completed already
+7593.240 (7) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7593.328 (7) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+7593.384 (7) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7593.418 (7) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+7593.450 (7) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+7593.484 (7) Saving backup history. Total backup size: Unknown
+7593.561 (7) Requesting upload of the files that have not yet been successfully uploaded (2)
+7593.627 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+7593.670 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+7595.347 (7) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+7595.430 (7) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+7595.781 (7) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 7602175
+7597.552 (7) Googledrive chunked upload: 24.7 % uploaded (8650752)
+7598.828 (7) Googledrive chunked upload: 27.7 % uploaded (9699328)
+7658.896 (7) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+7659.263 (7) An error condition has occurred for the first time during this job
+7659.887 (7) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+7659.963 (7) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+7720.607 (7) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+7721.044 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7721.056 (7) Number of backup sets in history: 2; groups (db): 1
+7721.110 (7) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+7721.176 (7) This backup set is the backup set just made, so will not be deleted.
+7721.176 (7) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+7721.177 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+7721.243 (7) Number of backup sets in history: 2; groups (files): 1
+7721.298 (7) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+7721.298 (7) This backup set is the backup set just made, so will not be deleted.
+7721.352 (7) This backup set is the backup set just made, so will not be deleted.
+7721.353 (7) This backup set is the backup set just made, so will not be deleted.
+7721.353 (7) This backup set is the backup set just made, so will not be deleted.
+7721.353 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+7721.407 (7) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+7721.408 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+7721.408 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7721.485 (7) Resume backup (5a4673d4a4cd, 7): finish run
+7721.539 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7721.671 (7) No email will/can be sent - the user has not configured an email address.
+7721.737 (7) The backup has not finished; a resumption is scheduled
+8075.799 (8) Opened log file at time: Fri, 03 Jul 2020 16:21:31 +0000 on http://localhost/wordpress
+8075.886 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.1M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+8075.941 (8) Free space on disk containing Updraft's temporary directory: 1866322.9 MB
+8076.062 (8) Backup run: resumption=8, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (8077s ago), job type=backup, previous check-in=6.5s
+8076.128 (8) Scheduling a resumption (9) after 452 seconds (1593793744) in case this run gets aborted
+8076.258 (8) Checking if we have a zip executable available
+8076.304 (8) Creation of backups of directories: already finished
+8076.350 (8) Saving backup status to database (elements: 8)
+8076.447 (8) Database dump (WordPress DB): Creation was completed already
+8076.524 (8) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8076.755 (8) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+8076.809 (8) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8076.854 (8) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+8076.897 (8) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+8076.953 (8) Saving backup history. Total backup size: Unknown
+8077.117 (8) Requesting upload of the files that have not yet been successfully uploaded (2)
+8077.205 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+8077.357 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+8079.213 (8) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+8079.251 (8) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+8079.633 (8) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 10485759
+8081.043 (8) Googledrive chunked upload: 32.9 % uploaded (11534336)
+8141.134 (8) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+8141.503 (8) An error condition has occurred for the first time during this job
+8142.084 (8) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+8142.477 (8) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+8144.362 (8) Googledrive chunked upload: 11.7 % uploaded (1048576)
+8204.441 (8) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+8204.536 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+8204.592 (8) Number of backup sets in history: 2; groups (db): 1
+8204.646 (8) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+8204.701 (8) This backup set is the backup set just made, so will not be deleted.
+8204.702 (8) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+8204.702 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8204.756 (8) Number of backup sets in history: 2; groups (files): 1
+8204.799 (8) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+8204.799 (8) This backup set is the backup set just made, so will not be deleted.
+8204.844 (8) This backup set is the backup set just made, so will not be deleted.
+8204.844 (8) This backup set is the backup set just made, so will not be deleted.
+8204.844 (8) This backup set is the backup set just made, so will not be deleted.
+8204.845 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8204.899 (8) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+8204.899 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+8204.899 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+8205.042 (8) Resume backup (5a4673d4a4cd, 8): finish run
+8205.097 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8205.196 (8) No email will/can be sent - the user has not configured an email address.
+8205.240 (8) The backup has not finished; a resumption is scheduled
+14668.112 (9) Opened log file at time: Fri, 03 Jul 2020 18:11:24 +0000 on http://localhost/wordpress
+14668.210 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.1M | 8M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+14668.273 (9) Free space on disk containing Updraft's temporary directory: 1866189.2 MB
+14668.364 (9) Backup run: resumption=9, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (14669s ago), job type=backup, previous check-in=68.5s
+14668.430 (9) Long time past since expected resumption time: approx expected=1593793812.3, now=1593799884.1, diff=6071.8
+14668.485 (9) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+14668.562 (9) Time passed on previous resumptions: 0:421.6 1:6 2:66.6 3:? 4:? 5:? 6:5.1 7:6.5 8:68.5  (known: 6, max: 422)
+14668.606 (9) Scheduling a resumption (10) after 452 seconds (1593800336) in case this run gets aborted
+14668.782 (9) Creation of backups of directories: already finished
+14668.870 (9) Saving backup status to database (elements: 8)
+14668.958 (9) Database dump (WordPress DB): Creation was completed already
+14669.055 (9) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14669.098 (9) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+14669.143 (9) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14669.189 (9) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+14669.244 (9) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+14669.296 (9) Saving backup history. Total backup size: Unknown
+14669.376 (9) Requesting upload of the files that have not yet been successfully uploaded (2)
+14669.516 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+14669.552 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+14672.619 (9) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+14672.694 (9) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+14673.219 (9) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 12320767
+14733.323 (9) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+14733.669 (9) An error condition has occurred for the first time during this job
+14734.235 (9) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+14734.332 (9) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+14734.669 (9) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: upload already began; attempting to resume from byte 1835007
+14794.709 (9) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+14794.904 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14794.946 (9) Number of backup sets in history: 2; groups (db): 1
+14794.993 (9) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+14795.048 (9) This backup set is the backup set just made, so will not be deleted.
+14795.048 (9) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+14795.048 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+14795.103 (9) Number of backup sets in history: 2; groups (files): 1
+14795.158 (9) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+14795.158 (9) This backup set is the backup set just made, so will not be deleted.
+14795.187 (9) This backup set is the backup set just made, so will not be deleted.
+14795.187 (9) This backup set is the backup set just made, so will not be deleted.
+14795.188 (9) This backup set is the backup set just made, so will not be deleted.
+14795.188 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+14795.253 (9) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+14795.253 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+14795.254 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+14795.341 (9) Resume backup (5a4673d4a4cd, 9): finish run
+14795.400 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14795.488 (9) No email will/can be sent - the user has not configured an email address.
+14795.528 (9) The backup has not finished; a resumption is scheduled
+15151.997 (10) Opened log file at time: Fri, 03 Jul 2020 18:19:27 +0000 on http://localhost/wordpress
+15152.079 (10) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.2 PHP: 7.4.5 (apache2handler, Windows NT LAPTOP-R6PF0P33 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.11-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.5 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 64.1M | 58M) multisite: N openssl: OpenSSL 1.1.1e  17 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+15152.113 (10) Free space on disk containing Updraft's temporary directory: 1866189.1 MB
+15152.355 (10) Backup run: resumption=10, nonce=5a4673d4a4cd, file_nonce=5a4673d4a4cd begun at=1593785215 (15153s ago), job type=backup
+15152.447 (10) The current run is resumption number 10, and there was nothing useful done on the last run (last useful run: 8) - will not schedule a further attempt until we see something useful happening this time
+15152.535 (10) Scheduling a resumption (11) after 452 seconds (1593800820); but the job will then be aborted unless something happens this time
+15152.622 (10) Creation of backups of directories: already finished
+15152.669 (10) Saving backup status to database (elements: 8)
+15152.766 (10) Database dump (WordPress DB): Creation was completed already
+15152.850 (10) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+15152.887 (10) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-themes.zip: themes: This file has already been successfully uploaded
+15152.926 (10) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+15152.971 (10) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-others.zip: others: This file has already been successfully uploaded
+15153.008 (10) backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-db.gz: db: This file has already been successfully uploaded
+15153.063 (10) Saving backup history. Total backup size: Unknown
+15153.245 (10) Requesting upload of the files that have not yet been successfully uploaded (2)
+15153.327 (10) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+15153.377 (10) Beginning dispatch of backup to remote (googledrive) (instance identifier s-76b2e8a56878b6df762d87a5e1abbe96)
+15155.018 (10) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+15155.043 (10) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+15155.444 (10) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-plugins.zip: upload already began; attempting to resume from byte 13107199
+15215.476 (10) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+15215.853 (10) An error condition has occurred for the first time during this job
+15216.415 (10) Google Drive: quota usage: used=516 MB, total=15360 MB, available=14844 MB
+15216.496 (10) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Pl7NbrrmfNlVg1RK8zvo0CUchPyBj7JM)
+15216.810 (10) Google Drive: backup_2020-07-03-1606_eCommerce_Website_5a4673d4a4cd-uploads.zip: upload already began; attempting to resume from byte 2883583
+15276.856 (10) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: D:\Programs\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+15276.924 (10) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15276.969 (10) Number of backup sets in history: 2; groups (db): 1
+15277.006 (10) Examining (for databases) backup set with group_id=0, nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+15277.055 (10) This backup set is the backup set just made, so will not be deleted.
+15277.055 (10) Examining (for databases) backup set with group_id=0, nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+15277.056 (10) This backup set remains non-empty (f=1/d=1); will retain in history
+15277.094 (10) Number of backup sets in history: 2; groups (files): 1
+15277.138 (10) Examining (for files) backup set with nonce=5a4673d4a4cd, datestamp=1593785215 (Jul 03 2020 14:06:55)
+15277.138 (10) This backup set is the backup set just made, so will not be deleted.
+15277.177 (10) This backup set is the backup set just made, so will not be deleted.
+15277.177 (10) This backup set is the backup set just made, so will not be deleted.
+15277.177 (10) This backup set is the backup set just made, so will not be deleted.
+15277.177 (10) This backup set remains non-empty (f=1/d=1); will retain in history
+15277.220 (10) Examining (for files) backup set with nonce=8c4cbc4e7c9c, datestamp=1590679173 (May 28 2020 15:19:33)
+15277.220 (10) This backup set remains non-empty (f=1/d=1); will retain in history
+15277.220 (10) Retain: saving new backup history (sets now: 2) and finishing retain operation
+15277.303 (10) Resume backup (5a4673d4a4cd, 10): finish run
+15277.385 (10) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+15277.462 (10) No email will/can be sent - the user has not configured an email address.
+15277.490 (10) The backup attempt has finished, apparently unsuccessfully

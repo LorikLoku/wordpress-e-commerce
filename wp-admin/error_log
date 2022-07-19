@@ -1,0 +1,100 @@
+[04-Jul-2020 17:46:20 UTC] WordPress database error Table 'wts2020c_wp.wp_usermeta' doesn't exist for query SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1) ORDER BY umeta_id ASC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), load_default_textdomain, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User->init, WP_User->for_site, WP_User->get_caps_data, get_user_meta, get_metadata, update_meta_cache
+[12-Jul-2020 15:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/wts2020clothing/public_html/wp-includes/functions.php:35
+Stack trace:
+#0 /home/wts2020clothing/public_html/wp-settings.php(113): require()
+#1 /home/wts2020clothing/public_html/wp-config.php(77): require_once('/home/wts2020cl...')
+#2 /home/wts2020clothing/public_html/wp-load.php(37): require_once('/home/wts2020cl...')
+#3 /home/wts2020clothing/public_html/wp-admin/admin-ajax.php(22): require_once('/home/wts2020cl...')
+#4 {main}
+  thrown in /home/wts2020clothing/public_html/wp-includes/functions.php on line 35
+[12-Jul-2020 16:25:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant '‘\external' in /home/wts2020clothing/public_html/wp-includes/functions.php:31
+Stack trace:
+#0 /home/wts2020clothing/public_html/wp-settings.php(113): require()
+#1 /home/wts2020clothing/public_html/wp-config.php(77): require_once('/home/wts2020cl...')
+#2 /home/wts2020clothing/public_html/wp-load.php(37): require_once('/home/wts2020cl...')
+#3 /home/wts2020clothing/public_html/wp-admin/admin-ajax.php(22): require_once('/home/wts2020cl...')
+#4 {main}
+  thrown in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  Use of undefined constant external - assumed 'external' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  Division by zero in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  Use of undefined constant api - assumed 'api' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  Use of undefined constant shortcode - assumed 'shortcode' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  Use of undefined constant php’ - assumed 'php’' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  include(0php’): failed to open stream: No such file or directory in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Warning:  include(): Failed opening '0php’' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/wts2020clothing/public_html/wp-includes/functions.php:32
+Stack trace:
+#0 /home/wts2020clothing/public_html/wp-settings.php(113): require()
+#1 /home/wts2020clothing/public_html/wp-config.php(77): require_once('/home/wts2020cl...')
+#2 /home/wts2020clothing/public_html/wp-load.php(37): require_once('/home/wts2020cl...')
+#3 /home/wts2020clothing/public_html/wp-admin/admin-ajax.php(22): require_once('/home/wts2020cl...')
+#4 {main}
+  thrown in /home/wts2020clothing/public_html/wp-includes/functions.php on line 32
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  Use of undefined constant external - assumed 'external' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  Division by zero in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  Use of undefined constant api - assumed 'api' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  Use of undefined constant shortcode - assumed 'shortcode' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  Use of undefined constant php’ - assumed 'php’' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  include(0php’): failed to open stream: No such file or directory in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:29:43 UTC] PHP Warning:  include(): Failed opening '0php’' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  Use of undefined constant external - assumed 'external' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  Division by zero in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  Use of undefined constant api - assumed 'api' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  Use of undefined constant shortcode - assumed 'shortcode' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  A non-numeric value encountered in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  Use of undefined constant php’ - assumed 'php’' (this will throw an Error in a future version of PHP) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  include(0php’): failed to open stream: No such file or directory in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 16:31:44 UTC] PHP Warning:  include(): Failed opening '0php’' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/wts2020clothing/public_html/wp-includes/functions.php on line 31
+[12-Jul-2020 18:25:51 UTC] PHP Parse error:  syntax error, unexpected 'ID' (T_STRING) in /home/wts2020clothing/public_html/wp-content/plugins/external-api-shortcode/external-api-shortcode.php on line 47
+[12-Jul-2020 18:25:52 UTC] PHP Parse error:  syntax error, unexpected 'ID' (T_STRING) in /home/wts2020clothing/public_html/wp-content/plugins/external-api-shortcode/external-api-shortcode.php on line 47
+[12-Jul-2020 18:25:53 UTC] PHP Parse error:  syntax error, unexpected 'ID' (T_STRING) in /home/wts2020clothing/public_html/wp-content/plugins/external-api-shortcode/external-api-shortcode.php on line 47
+[12-Jul-2020 18:28:45 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /home/wts2020clothing/public_html/wp-content/plugins/external-api-shortcode/external-api-shortcode.php on line 48
+[12-Jul-2020 18:28:46 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /home/wts2020clothing/public_html/wp-content/plugins/external-api-shortcode/external-api-shortcode.php on line 48
+[12-Jul-2020 18:28:47 UTC] PHP Parse error:  syntax error, unexpected 'Name' (T_STRING) in /home/wts2020clothing/public_html/wp-content/plugins/external-api-shortcode/external-api-shortcode.php on line 48
+[12-Jul-2020 19:51:06 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/wts2020clothing/public_html/wp-content/plugins/test/test.php on line 26
+[12-Jul-2020 19:51:07 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/wts2020clothing/public_html/wp-content/plugins/test/test.php on line 26
+[12-Jul-2020 19:51:08 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/wts2020clothing/public_html/wp-content/plugins/test/test.php on line 26
+[12-Jul-2020 19:55:23 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/wts2020clothing/public_html/wp-content/plugins/test/test.php on line 26
+[12-Jul-2020 19:55:24 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/wts2020clothing/public_html/wp-content/plugins/test/test.php on line 26
+[12-Jul-2020 19:55:25 UTC] PHP Parse error:  syntax error, unexpected '$url' (T_VARIABLE) in /home/wts2020clothing/public_html/wp-content/plugins/test/test.php on line 26
+[12-Jul-2020 20:58:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 20:58:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 20:58:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 20:59:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 20:59:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 20:59:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 20:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 20:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 20:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 20:59:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 20:59:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 20:59:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 20:59:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 20:59:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 20:59:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 21:00:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 21:00:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 21:00:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 21:00:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-includes/functions.php on line 6222
+[12-Jul-2020 21:00:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/includes/misc.php on line 1282
+[12-Jul-2020 21:00:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php:1) in /home/wts2020clothing/public_html/wp-admin/admin-header.php on line 9
+[12-Jul-2020 21:06:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php on line 42
+[12-Jul-2020 21:06:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php on line 42
+[12-Jul-2020 21:06:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/wts2020clothing/public_html/wp-content/plugins/eexternal-api-shortcode-1/eexternal-api-shortcode.php on line 42
